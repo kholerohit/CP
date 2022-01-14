@@ -15,5 +15,11 @@ int main()
     double d = 1.3333454234;
     cout<<"Size of Double :"<<sizeof(d)<<" Byte"<<endl;
 
+    unsigned int num =  123;
+    cout<<"Size of Unsigned Int: "<<sizeof(num)<<" Byte"<<endl;
+
+    bool b = 1;
+    cout<<"Size of Boolean : "<< b<<" bit"<<endl;
+
     return 0;
 }
